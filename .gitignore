@@ -1,0 +1,19 @@
+# Build outputs
+build/
+mx.scratch
+
+# IDE settings
+.settings/
+.vscode/launch.json
+.vscode/settings.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Binary outputs
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
