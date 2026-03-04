@@ -66,8 +66,8 @@ static void MX_SPI1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-#define SENSOR_OKUMA_SURESI 50
-#define LED_YAK_SONDUR_SURESI 200
+#define SENSOR_READ_TIMER 50
+#define LED_TOGGLE_TIMER 200
 
 uint32_t sonSensorOkumaZamani = 0;
 uint32_t sonLedZamani = 0;
